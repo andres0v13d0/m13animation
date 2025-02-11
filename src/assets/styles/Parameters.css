@@ -1,0 +1,66 @@
+.param-cont{
+    display: flex;
+    height: 80vh;
+}
+
+.param-cont .param-text{
+    background-color: #001634;
+    height: 70vh;
+    margin-left: 70px;
+    display: flex;
+    color: white;
+    border-radius: 20px;
+    background-color: #001634;
+    width: 90vw;
+}
+
+.param-cont .video{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.param-cont .video video{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.param-cont .param-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.param-inputs h1{
+    font-size: 25px;
+    margin: 50px;
+    width: 80%;
+}
+
+.param-inputs label{
+    font-size: 20px;
+    margin: 10px 50px;
+}
+
+.param-inputs input[type="range"]{
+    width: 80%;
+    margin: 10px 50px;
+}
+
+.param-inputs :nth-child(4){
+    margin-top: 50px;
+}
+
+
+.video button{
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: none;
+    color: #00bf13;
+    font-weight: bold;
+    cursor: pointer;
+}

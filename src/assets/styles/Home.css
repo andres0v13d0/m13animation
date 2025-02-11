@@ -1,0 +1,169 @@
+section{
+    display: flex;
+    background-color: #002c66;
+}
+
+.message-cont{
+    height: 80vh;
+    color: white;
+
+}
+
+.message-cont h1{
+    font-size: 40px;
+    width: 40vw;
+    margin: 150px 40px 40px;
+}
+
+.message-cont p{
+    font-size: 20px;
+    margin-left: 40px;
+    width: 40vw;
+}
+
+.message-cont b{
+    color: #00bf63;
+}
+
+
+.message-cont button{
+    background-color: #00bf13;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    margin: 50px 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.circle-cont{
+    width: 900px;
+    height: 70vh;
+    background-color: #001634;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.rect-cont{
+    position: absolute;
+    width: 700px;
+    height: 80vh;
+    background-color: #001634;
+    right: 0;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 30% 0%);
+    z-index: 1;
+}
+
+.model-cont{
+    position: absolute;
+    right: 400px;
+    top: 100px;
+    z-index: 2;
+    height: 80vh;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-cont canvas{
+    width: 100%;
+    height: 100%;
+}
+
+.param-info{
+    margin-top: -200px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.param-info img{
+    width: auto;
+    height: 400px;
+    margin: 30px 70px;
+}
+
+.param-info h1{
+    font-size: 40px;
+    width: 50vw;
+    margin: 40px 80px;
+}
+
+.param-info p{
+    font-size: 20px;
+    margin-left: 80px;
+    width: 50vw;
+}
+
+.param-info button{
+    background-color: #00bf13;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    margin: 10px 80px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.param-info .param-text{
+    width: 60vw;
+    background-color: #001634;
+    height: 45vh;
+    margin-left: 70px;
+}
+
+.last-section{
+    background-color:  #061223;
+    margin-top: -100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.last-section h1{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.last-section p{
+    font-size: 20px;
+}
+
+.last-section a{
+    color: #00bf13;
+    text-decoration: none;
+}
+
+.last-section a:hover{
+    color: white;
+}
+
+.last-section .features-cont{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.last-section .features-cont .feature{
+    text-align: center;
+}
+
+.feature .ico{
+    height: 40px;
+    width: 40px;
+    background-color: #002c66;
+    padding: 30px;
+    border-radius: 50%;
+    overflow: auto;
+}
