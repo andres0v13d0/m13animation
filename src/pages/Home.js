@@ -16,8 +16,8 @@ function M13Model() {
 function Home() {
   const navigate = useNavigate();
 
-  const handleButtonClick = () => {
-    navigate('/animation'); 
+  const handleButtonClick = (path) => {
+    navigate(path);
   };
 
   return (
@@ -27,7 +27,7 @@ function Home() {
         <div className='message-cont'>
           <h1>Descubre cómo sucede la <b>replicación</b> del <b>Bacteriófago M13</b></h1>
           <p>La animación que podrás ver muestra las distintas etapas que sigue el bacteriófago M13 para replicarse dentro de una bacteria.</p>
-          <button onClick={handleButtonClick}>Ver animación</button>
+          <button onClick={() => handleButtonClick('/animation')}>Ver animación</button>
         </div>
         <div className='circle-cont'></div>
         <div className='rect-cont'></div>
@@ -50,7 +50,7 @@ function Home() {
         <div className='param-text'>
           <h1>Configura tus propios parametros de simulación</h1>
           <p>Podrás modificar la cantidad de bacteriófagos y bacterias para ver como va creciendo la cantidad de M13.</p>
-          <button>Configurar</button>
+          <button onClick={() => handleButtonClick('/parameters')}>Configurar</button>
         </div>
       </section>
       <section className='last-section'>
