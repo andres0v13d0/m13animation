@@ -10,7 +10,7 @@ section{
 }
 
 .message-cont h1{
-    font-size: 40px;
+    font-size: 30px;
     width: 40vw;
     margin: 150px 40px 40px;
 }
@@ -30,11 +30,11 @@ section{
     background-color: #00bf13;
     color: white;
     border: none;
-    padding: 20px 30px;
-    margin: 50px 40px;
+    padding: 10px 20px;
+    margin: 20px 40px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .circle-cont{
@@ -84,49 +84,48 @@ section{
 
 .param-info img{
     width: auto;
-    height: 400px;
+    height: 300px;
     margin: 30px 70px;
 }
 
 .param-info h1{
     font-size: 40px;
-    width: 50vw;
+    width: 80%;
     margin: 40px 80px;
 }
 
 .param-info p{
     font-size: 20px;
     margin-left: 80px;
-    width: 50vw;
+    width: 80%;
 }
 
 .param-info button{
     background-color: #00bf13;
     color: white;
     border: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
     margin: 10px 80px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .param-info .param-text{
-    width: 60vw;
+    width: 55vw;
     background-color: #001634;
-    height: 45vh;
+    height: 60vh;
     margin-left: 70px;
 }
 
 .last-section{
     background-color:  #061223;
-    margin-top: 70px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
 }
 
 .last-section h1{
