@@ -4,7 +4,7 @@ section{
 }
 
 .message-cont{
-    height: 80vh;
+    height: 100vh;
     color: white;
 
 }
@@ -53,6 +53,7 @@ section{
     height: 80vh;
     background-color: #001634;
     right: 0;
+    bottom: 0;
     clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 30% 0%);
     z-index: 1;
 }
@@ -119,7 +120,7 @@ section{
 
 .last-section{
     background-color:  #061223;
-    margin-top: -100px;
+    margin-top: 70px;
     color: white;
     display: flex;
     flex-direction: column;
