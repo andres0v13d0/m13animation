@@ -1,5 +1,5 @@
 section{
-    height: 90vh;
+    height: 100vh;
 }
 
 .animation-cont{
@@ -7,7 +7,7 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 95vh;
     width: 100vw;
     border-radius: 20px;
     background-color: #001634;
@@ -20,8 +20,8 @@ section{
 }
 
 .animation-cont .animation-controls #btn-action{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: #00bf13;
     color: white;
     border: none;
@@ -41,7 +41,7 @@ section{
     z-index: 10;
     color: white;
     top: 90px;
-    right: 510px;
+    right: 400px;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ section{
     border-radius: 20px;
     padding: 30px;
     top: 90px;
-    right: 550px;
+    right: 440px;
     display: none;
 }
 
@@ -64,17 +64,17 @@ section{
     margin: 0 30px;
     border-radius: 20px;
     background-color: #001634;
-    height: 85vh;
+    height: 95vh;
     width: 40vw;    
 }
 
 .animation-info h1{
-    font-size: 30px;
+    font-size: 20px;
     margin: 20px 30px;
 }
 
 .animation-info p{
-    font-size: 20px;
+    font-size: 15px;
     margin: 20px 30px;
 }
 
