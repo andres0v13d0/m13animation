@@ -59,7 +59,7 @@ export default function Animation() {
   return (
     <>
       <Header showNav={true} currentPage={"animation"} />
-      <section>
+      <section className="sec-animation">
         <div className="animation-cont">
           <div className="phage-cont">
             <Canvas camera={{ position: [100, 100, -250], fov: 50 }} style={{ backgroundImage: "url(/fondo.png)" }}>

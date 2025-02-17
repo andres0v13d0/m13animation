@@ -1,6 +1,8 @@
 .param-cont{
     display: flex;
     height: 80vh;
+    background-color: #002c66;
+    align-items: center;
 }
 
 .param-cont .param-text{

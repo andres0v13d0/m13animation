@@ -1,5 +1,9 @@
-section{
-    height: 100vh;
+.sec-animation{
+    height: auto;
+    display: flex;
+    width: 100%;
+    background-color: #002c66;
+    padding: 20px 0;
 }
 
 .animation-cont{
@@ -8,7 +12,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 95vh;
-    width: 100vw;
+    width: 80%;
     border-radius: 20px;
     background-color: #001634;
     margin-left: 20px;
@@ -40,8 +44,8 @@ section{
     position: absolute;
     z-index: 10;
     color: white;
-    top: 90px;
-    right: 400px;
+    top: 110px;
+    right: 380px;
     cursor: pointer;
 }
 
@@ -50,7 +54,7 @@ section{
     background-color: white;
     border-radius: 20px;
     padding: 30px;
-    top: 90px;
+    top: 110px;
     right: 440px;
     display: none;
 }
@@ -65,7 +69,7 @@ section{
     border-radius: 20px;
     background-color: #001634;
     height: 95vh;
-    width: 40vw;    
+    width: 30%;    
 }
 
 .animation-info h1{
@@ -80,4 +84,12 @@ section{
 
 .animation-info p b{
     color: #00bf13;
+}
+
+@media screen and (max-width: 600px){
+    .animation-cont{
+        width: 90%;
+        margin: 0;
+        margin-left: 5%;
+    }
 }

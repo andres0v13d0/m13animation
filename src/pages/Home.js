@@ -23,14 +23,15 @@ function Home() {
   return (
     <>
       <Header showNav={false}/>
-      <section>
+      <section className='top-section'>
+        <div className='circle-cont'></div>
+        <div className='rect-cont'></div>
         <div className='message-cont'>
           <h1>Descubre cómo sucede la <b>replicación</b> del <b>Bacteriófago M13</b></h1>
           <p>La animación que podrás ver muestra las distintas etapas que sigue el bacteriófago M13 para replicarse dentro de una bacteria.</p>
           <button onClick={() => handleButtonClick('/animation')}>Ver animación</button>
         </div>
-        <div className='circle-cont'></div>
-        <div className='rect-cont'></div>
+        
 
         <div className='model-cont'>
           <Canvas camera={{ position: [90, -200, -70]}} style={{ background: 'transparent' }}>

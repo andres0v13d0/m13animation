@@ -3,6 +3,7 @@ header{
     display: flex;
     color: white;
     align-items: center;
+    width: 100%;
 }
 
 header h1{
@@ -65,3 +66,50 @@ header nav ul a + a{
     margin-left: -24px;
 }
 
+
+  
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header:has(nav) h1{
+        display: none;
+    }
+
+    header:not(:has(nav)) h1{
+        display: block;
+    }
+
+    header nav{
+        justify-content: left;
+    }
+
+    header nav ul li{
+        width: 90px;
+        clip-path: none;
+        height: 30px;
+    }
+
+    header nav{
+        font-size: 15px;
+    }
+
+    header:has(nav) img{
+        width: auto;
+        height: 40px;
+        margin: 20px 0 20px 20px;
+    }
+
+    header:not(:has(nav)) img{
+        width: auto;
+        height: 40px;
+        margin: 20px;
+    }
+
+    header nav ul a + a{
+        margin-left: 0;
+    }
+}
